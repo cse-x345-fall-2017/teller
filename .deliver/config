@@ -7,6 +7,8 @@ BUILD_USER="dave"
 BUILD_AT="/tmp/edeliver/myapp/builds"
 RELEASE_DIR="$BUILD_AT/_build/prod/rel/teller/"
 
+GIT_CLEAN_PATHS="_build rel priv/static"
+
 STAGING_HOSTS="192.168.59.103"
 STAGING_USER="dave"
 DELIVER_TO="/home/dave"
