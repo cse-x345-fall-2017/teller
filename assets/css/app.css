@@ -5,13 +5,16 @@ body {
 
 .page {
     width: 530px;
-    margin: 10% auto;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .page article {
     color: #ccc;
-    font-size: 200%;
+    font-size: 160%;
     margin-top: 20px;
     text-align: center;
     font-family: cursive;
-}2
+    max-height: 30%;
+}
