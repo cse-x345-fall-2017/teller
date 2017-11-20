@@ -19,7 +19,7 @@ defmodule Teller.Mixfile do
   def application do
     [
       mod: {Teller.Application, []},
-      extra_applications: [:logger, :runtime_tools]
+      extra_applications: [:logger, :runtime_tools, :edeliver]
     ]
   end
 
@@ -33,7 +33,7 @@ defmodule Teller.Mixfile do
   defp deps do
     [
       {:distillery, "> 0.0.0", runtime: false },
-      
+      {:edeliver, ">= 0.0.0" },
       {:phoenix, "~> 1.3.0"},
       {:phoenix_pubsub, "~> 1.0"},
       {:phoenix_html, "~> 2.10"},
