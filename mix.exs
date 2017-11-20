@@ -32,6 +32,8 @@ defmodule Teller.Mixfile do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
+      {:distillery, "> 0.0.0", runtime: false },
+      
       {:phoenix, "~> 1.3.0"},
       {:phoenix_pubsub, "~> 1.0"},
       {:phoenix_html, "~> 2.10"},
