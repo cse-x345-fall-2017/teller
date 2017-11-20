@@ -1,0 +1,17 @@
+/* This file is for your main application css. */
+body {
+    background-color: #000 !important;
+}
+
+.page {
+    width: 530px;
+    margin: 10% auto;
+}
+
+.page article {
+    color: #ccc;
+    font-size: 200%;
+    margin-top: 20px;
+    text-align: center;
+    font-family: cursive;
+}2

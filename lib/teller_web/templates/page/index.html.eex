@@ -1,0 +1,6 @@
+<section class="page" >
+  <img src="images/teller.jpg" />
+  <article>
+    <%= @fortune %>
+  </article>
+</section>
